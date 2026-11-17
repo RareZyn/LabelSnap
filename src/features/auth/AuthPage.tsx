@@ -178,12 +178,14 @@ export function AuthPage() {
         </p>
       </div>
       <aside className="auth-aside">
-        <h2 className="h1">{t('auth.aside.title')}</h2>
-        <ol className="col gap-12" style={{ paddingLeft: 18, margin: 0 }}>
-          <li>{t('auth.aside.step1')}</li>
-          <li>{t('auth.aside.step2')}</li>
-          <li>{t('auth.aside.step3')}</li>
-        </ol>
+        <div className="auth-sheet">
+          <h2 className="auth-sheet-title">{t('auth.aside.title')}</h2>
+          <ol className="auth-steps">
+            <li>{t('auth.aside.step1')}</li>
+            <li>{t('auth.aside.step2')}</li>
+            <li>{t('auth.aside.step3')}</li>
+          </ol>
+        </div>
       </aside>
     </main>
   );
