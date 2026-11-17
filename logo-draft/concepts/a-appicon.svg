@@ -1,0 +1,8 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <title>LabelSnap app icon</title>
+  <rect width="256" height="256" rx="56" fill="#080402"/>
+  <g transform="translate(128 128) scale(0.78) translate(-128 -128)">
+    <path d="M36 36H82V176H186V220H36Z" fill="#B6DFF5"/>
+    <path d="M144 36H220V112H186V70H144Z" fill="#E0091F"/>
+  </g>
+</svg>

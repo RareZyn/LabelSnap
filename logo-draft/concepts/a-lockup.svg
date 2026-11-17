@@ -1,0 +1,6 @@
+<svg width="880" height="256" viewBox="0 0 880 256" xmlns="http://www.w3.org/2000/svg">
+  <title>LabelSnap horizontal lockup</title>
+  <path d="M36 36H82V176H186V220H36Z" fill="#080402"/>
+  <path d="M144 36H220V112H186V70H144Z" fill="#080402"/>
+  <text x="288" y="128" font-family="Segoe UI, Arial, sans-serif" font-size="106" letter-spacing="-2" dominant-baseline="central" fill="#080402"><tspan font-weight="400">Label</tspan><tspan font-weight="700">Snap</tspan></text>
+</svg>

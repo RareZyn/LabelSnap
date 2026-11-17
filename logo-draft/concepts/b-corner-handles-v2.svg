@@ -1,0 +1,8 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <title>LabelSnap concept B - Corner Handles</title>
+  <path d="M36 36H124V68H68V124H36Z" fill="#080402"/>
+  <path d="M220 36H132V68H188V124H220Z" fill="#080402"/>
+  <path d="M36 220H124V188H68V132H36Z" fill="#080402"/>
+  <path d="M220 220H132V188H188V132H220Z" fill="#080402"/>
+  <path d="M88 110H168V146H88Z" fill="#080402"/>
+</svg>

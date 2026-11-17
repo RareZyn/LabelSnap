@@ -1,0 +1,9 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <title>LabelSnap concept C - Shutter</title>
+  <g fill="#080402">
+    <path d="M60 36H152V72H96V128H60Z"/>
+    <path d="M220 60V152H184V96H128V60Z"/>
+    <path d="M196 220H104V184H160V128H196Z"/>
+    <path d="M36 196V104H72V160H128V196Z"/>
+  </g>
+</svg>

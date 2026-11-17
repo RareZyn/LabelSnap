@@ -1,0 +1,12 @@
+node_modules
+dist
+dev-dist
+*.local
+.env*
+!.env.example
+!.env.emulators
+.vercel
+.firebase
+*.log
+.DS_Store
+LabelSnap.md.bak

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="984" viewBox="0 0 1600 984"><defs><filter id="grey"><feColorMatrix type="saturate" values="0"/></filter></defs><rect width="1600" height="984" fill="#f7f7f4"/><text x="60" y="78" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#161616">LabelSnap - logo concepts</text><text x="60" y="116" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#6b6b6b">Round 1 - greyscale, so form is judged before colour</text><rect x="60" y="150" width="474.667" height="774" rx="18" fill="#fff" stroke="#161616" stroke-width="2"/><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="90" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept A - Snap Bracket</title>
+  <path d="M36 36H82V176H186V220H36Z" fill="#080402"/>
+  <path d="M144 36H220V112H186V70H144Z" fill="#080402"/>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 256" x="90" y="514" width="414.667" height="120" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap horizontal lockup</title>
+  <path d="M36 36H82V176H186V220H36Z" fill="#080402"/>
+  <path d="M144 36H220V112H186V70H144Z" fill="#080402"/>
+  <text x="288" y="128" font-family="Segoe UI, Arial, sans-serif" font-size="106" letter-spacing="-2" dominant-baseline="central" fill="#080402"><tspan font-weight="400">Label</tspan><tspan font-weight="700">Snap</tspan></text>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="90" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept A - Snap Bracket</title>
+  <path d="M36 36H82V176H186V220H36Z" fill="#080402"/>
+  <path d="M144 36H220V112H186V70H144Z" fill="#080402"/>
+</svg>
+</g><text x="122" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="180" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept A - Snap Bracket</title>
+  <path d="M36 36H82V176H186V220H36Z" fill="#080402"/>
+  <path d="M144 36H220V112H186V70H144Z" fill="#080402"/>
+</svg>
+</g><text x="196" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="238" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept A - Snap Bracket</title>
+  <path d="M36 36H82V176H186V220H36Z" fill="#080402"/>
+  <path d="M144 36H220V112H186V70H144Z" fill="#080402"/>
+</svg>
+</g><text x="246" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="90.0" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">A · Snap Bracket</text><text x="90.0" y="808" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="700" fill="#161616" letter-spacing="1.5">RECOMMENDED</text><text x="90.0" y="842" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">The L of LabelSnap is itself a crop corner;</text><text x="90.0" y="868" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">an opposing bracket completes the frame.</text><rect x="562.667" y="150" width="474.667" height="774" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="592.667" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept B - Corner Handles</title>
+  <path d="M34 34H112V64H64V112H34Z" fill="#080402"/>
+  <path d="M222 34H144V64H192V112H222Z" fill="#080402"/>
+  <path d="M34 222H112V192H64V144H34Z" fill="#080402"/>
+  <path d="M222 222H144V192H192V144H222Z" fill="#080402"/>
+  <path d="M88 102H168V154H88Z" fill="#080402"/>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 256" x="592.667" y="514" width="414.667" height="120" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap horizontal lockup B</title>
+  <path d="M34 34H112V64H64V112H34Z" fill="#080402"/>
+  <path d="M222 34H144V64H192V112H222Z" fill="#080402"/>
+  <path d="M34 222H112V192H64V144H34Z" fill="#080402"/>
+  <path d="M222 222H144V192H192V144H222Z" fill="#080402"/>
+  <path d="M88 102H168V154H88Z" fill="#080402"/>
+  <text x="288" y="128" font-family="Segoe UI, Arial, sans-serif" font-size="106" letter-spacing="-2" dominant-baseline="central" fill="#080402"><tspan font-weight="400">Label</tspan><tspan font-weight="700">Snap</tspan></text>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="592.667" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept B - Corner Handles</title>
+  <path d="M34 34H112V64H64V112H34Z" fill="#080402"/>
+  <path d="M222 34H144V64H192V112H222Z" fill="#080402"/>
+  <path d="M34 222H112V192H64V144H34Z" fill="#080402"/>
+  <path d="M222 222H144V192H192V144H222Z" fill="#080402"/>
+  <path d="M88 102H168V154H88Z" fill="#080402"/>
+</svg>
+</g><text x="624.667" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="682.667" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept B - Corner Handles</title>
+  <path d="M34 34H112V64H64V112H34Z" fill="#080402"/>
+  <path d="M222 34H144V64H192V112H222Z" fill="#080402"/>
+  <path d="M34 222H112V192H64V144H34Z" fill="#080402"/>
+  <path d="M222 222H144V192H192V144H222Z" fill="#080402"/>
+  <path d="M88 102H168V154H88Z" fill="#080402"/>
+</svg>
+</g><text x="698.667" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="740.667" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept B - Corner Handles</title>
+  <path d="M34 34H112V64H64V112H34Z" fill="#080402"/>
+  <path d="M222 34H144V64H192V112H222Z" fill="#080402"/>
+  <path d="M34 222H112V192H64V144H34Z" fill="#080402"/>
+  <path d="M222 222H144V192H192V144H222Z" fill="#080402"/>
+  <path d="M88 102H168V154H88Z" fill="#080402"/>
+</svg>
+</g><text x="748.667" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="592.6666666666667" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">B · Corner Handles</text><text x="592.6666666666667" y="814" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">The four corner handles of a detection</text><text x="592.6666666666667" y="840" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">frame, locked onto a label.</text><rect x="1065.33" y="150" width="474.667" height="774" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1095.33" y="190" width="414.667" height="300" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept C - Shutter</title>
+  <g fill="#080402">
+    <path d="M52 34H128V70H88V110H52Z"/>
+    <path d="M222 52V128H186V88H146V52Z"/>
+    <path d="M204 222H128V186H168V146H204Z"/>
+    <path d="M34 204V128H70V168H110V204Z"/>
+  </g>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 256" x="1095.33" y="514" width="414.667" height="120" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap horizontal lockup C</title>
+  <g fill="#080402">
+    <path d="M52 34H128V70H88V110H52Z"/>
+    <path d="M222 52V128H186V88H146V52Z"/>
+    <path d="M204 222H128V186H168V146H204Z"/>
+    <path d="M34 204V128H70V168H110V204Z"/>
+  </g>
+  <text x="288" y="128" font-family="Segoe UI, Arial, sans-serif" font-size="106" letter-spacing="-2" dominant-baseline="central" fill="#080402"><tspan font-weight="400">Label</tspan><tspan font-weight="700">Snap</tspan></text>
+</svg>
+</g><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1095.33" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept C - Shutter</title>
+  <g fill="#080402">
+    <path d="M52 34H128V70H88V110H52Z"/>
+    <path d="M222 52V128H186V88H146V52Z"/>
+    <path d="M204 222H128V186H168V146H204Z"/>
+    <path d="M34 204V128H70V168H110V204Z"/>
+  </g>
+</svg>
+</g><text x="1127.33" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1185.33" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept C - Shutter</title>
+  <g fill="#080402">
+    <path d="M52 34H128V70H88V110H52Z"/>
+    <path d="M222 52V128H186V88H146V52Z"/>
+    <path d="M204 222H128V186H168V146H204Z"/>
+    <path d="M34 204V128H70V168H110V204Z"/>
+  </g>
+</svg>
+</g><text x="1201.33" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g filter="url(#grey)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" x="1243.33" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet">
+  <title>LabelSnap concept C - Shutter</title>
+  <g fill="#080402">
+    <path d="M52 34H128V70H88V110H52Z"/>
+    <path d="M222 52V128H186V88H146V52Z"/>
+    <path d="M204 222H128V186H168V146H204Z"/>
+    <path d="M34 204V128H70V168H110V204Z"/>
+  </g>
+</svg>
+</g><text x="1251.33" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="1095.3333333333335" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">C · Shutter</text><text x="1095.3333333333335" y="814" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">Four brackets rotating shut: the shutter</text><text x="1095.3333333333335" y="840" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">and the detection frame in one.</text></svg>

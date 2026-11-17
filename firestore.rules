@@ -1,0 +1,105 @@
+rules_version = '2';
+
+// LabelSnap — every read and write under spaces/{spaceId}/** resolves to one membership lookup.
+// Images are not stored in Firebase: they live in each user's Google Drive (drive.file scope).
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function memberPath(spaceId) {
+      return /databases/$(database)/documents/spaces/$(spaceId)/members/$(request.auth.uid);
+    }
+
+    function isMember(spaceId) {
+      return signedIn() && exists(memberPath(spaceId));
+    }
+
+    function memberRole(spaceId) {
+      return get(memberPath(spaceId)).data.role;
+    }
+
+    function canWrite(spaceId) {
+      return isMember(spaceId) && memberRole(spaceId) in ['owner', 'editor'];
+    }
+
+    function isOwner(spaceId) {
+      return isMember(spaceId) && memberRole(spaceId) == 'owner';
+    }
+
+    // A user's own profile and preferences.
+    match /users/{uid} {
+      allow read, write: if signedIn() && request.auth.uid == uid;
+
+      match /{document=**} {
+        allow read, write: if signedIn() && request.auth.uid == uid;
+      }
+    }
+
+    // Built-in templates (reserved; v1 ships them in the client bundle).
+    match /templates/{templateId} {
+      allow read: if signedIn();
+      allow write: if false;
+    }
+
+    match /spaces/{spaceId} {
+      allow read: if isMember(spaceId);
+
+      // The personal Space is created on first sign-in with a deterministic id.
+      allow create: if signedIn()
+        && spaceId == 'personal_' + request.auth.uid
+        && request.resource.data.ownerUid == request.auth.uid
+        && request.resource.data.type == 'personal';
+
+      // Owners edit the Space; editors may only touch the denormalised counter.
+      allow update: if isOwner(spaceId)
+        || (canWrite(spaceId)
+            && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['documentCount']));
+
+      allow delete: if isOwner(spaceId);
+
+      match /members/{memberUid} {
+        allow read: if isMember(spaceId);
+
+        // Bootstrap: the creator of a Space may add themselves as its owner in the same batch.
+        allow create: if signedIn()
+          && memberUid == request.auth.uid
+          && request.resource.data.role == 'owner'
+          && getAfter(/databases/$(database)/documents/spaces/$(spaceId)).data.ownerUid == request.auth.uid;
+
+        allow update, delete: if isOwner(spaceId);
+      }
+
+      match /invites/{inviteId} {
+        allow read, write: if isOwner(spaceId);
+      }
+
+      match /templates/{templateId} {
+        allow read: if isMember(spaceId);
+        allow write: if canWrite(spaceId);
+      }
+
+      match /folders/{folderId} {
+        allow read: if isMember(spaceId);
+        allow write: if canWrite(spaceId);
+      }
+
+      match /documents/{documentId} {
+        allow read: if isMember(spaceId);
+        allow write: if canWrite(spaceId);
+
+        match /entries/{entryId} {
+          allow read: if isMember(spaceId);
+          allow write: if canWrite(spaceId);
+
+          match /ocr/{resultId} {
+            allow read: if isMember(spaceId);
+            allow write: if canWrite(spaceId);
+          }
+        }
+      }
+    }
+  }
+}
