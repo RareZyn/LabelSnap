@@ -4,9 +4,9 @@ import { useTranslation } from 'react-i18next';
 import { useAuthed, useSession } from '../../stores/sessionStore';
 import { useDocuments } from '../../data/documents';
 import { useFormat } from '../../hooks/useFormat';
-import { Icon } from '../../components/Icon';
+import { Icon, Logo } from '../../components/Icon';
 import { Button, EmptyState } from '../../components/ui';
-import { SyncPill, spaceInitial } from '../../components/AppShell';
+import { SyncPill } from '../../components/AppShell';
 import { DocCover, NewDocumentSheet } from '../documents/shared';
 
 function greetingKey(hour: number): string {
@@ -40,7 +40,7 @@ export function HomePage() {
   return (
     <main className="page paper">
       <header className="row">
-        <span className="space-badge">{spaceInitial(space?.name)}</span>
+        <Logo size={32} />
         <span className="h3 truncate">{space?.name ?? t('space.personal')}</span>
         <span className="spacer" />
         <SyncPill />

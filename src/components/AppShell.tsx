@@ -9,16 +9,12 @@ import { useOnline, useQueueSummary } from '../hooks/useSync';
 import { connectDrive } from '../lib/drive/gis';
 import { retryFailed } from '../lib/sync/uploadQueue';
 import { storageUsage, QUOTA_WARNING_RATIO } from '../lib/sync/quota';
-import { Icon } from './Icon';
+import { Icon, Logo } from './Icon';
 import { Button } from './ui';
 import { toastError } from '../stores/toastStore';
 
 const TOP_LEVEL = ['/home', '/documents', '/templates', '/settings', '/account'];
 const INSTALL_AFTER_ENTRIES = 3;
-
-export function spaceInitial(name: string | undefined): string {
-  return (name?.trim()[0] ?? 'L').toUpperCase();
-}
 
 export function SyncPill() {
   const { t } = useTranslation();
@@ -160,7 +156,7 @@ function Sidebar() {
   return (
     <nav className="sidebar" aria-label={t('nav.main')}>
       <div className="row" style={{ padding: '6px 8px', marginBottom: 8 }}>
-        <span className="space-badge">{spaceInitial(space?.name)}</span>
+        <Logo size={28} />
         <span className="truncate" style={{ fontWeight: 600, color: 'var(--text)' }}>
           {space?.name ?? t('space.personal')}
         </span>

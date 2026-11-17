@@ -732,20 +732,6 @@ img {
   display: none;
 }
 
-.space-badge {
-  width: 24px;
-  height: 24px;
-  border-radius: 5px;
-  background: var(--accent);
-  color: var(--on-accent);
-  font-size: 0.75rem;
-  font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex: none;
-}
-
 @media (min-width: 900px) {
   .bottom-nav {
     display: none;
